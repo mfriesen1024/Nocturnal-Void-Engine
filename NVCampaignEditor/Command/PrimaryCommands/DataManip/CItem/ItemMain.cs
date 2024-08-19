@@ -14,7 +14,7 @@ namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CItem
 
         protected override void Process(string[] argArray)
         {
-            throw new NotImplementedException();
+            throw new ArgumentException("Invalid command.");
         }
         protected override void Help(bool chain = false)
         {

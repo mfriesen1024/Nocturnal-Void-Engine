@@ -16,7 +16,7 @@ namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CMap.CCompiler
 
         protected override void Process(string[] argArray)
         {
-            throw new NotImplementedException();
+            throw new ArgumentException("Invalid command.");
         }
 
         public static File[] GetFiles(int i)
