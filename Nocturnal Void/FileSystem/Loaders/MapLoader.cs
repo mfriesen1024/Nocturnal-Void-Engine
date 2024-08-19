@@ -21,7 +21,6 @@ namespace Nocturnal_Void.FileSystem.Loaders
         /// Loads an array of Map from individual files.
         /// </summary>
         /// <param name="path">The directory in which the files are located.</param>
-        /// <exception cref="NotImplementedException"></exception>
         public override void Load(CFile path)
         {
             path = new CFile(path, fName);
