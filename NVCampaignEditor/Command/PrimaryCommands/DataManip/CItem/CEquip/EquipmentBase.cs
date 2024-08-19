@@ -1,6 +1,6 @@
 ﻿namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CItem.CEquip
 {
-    internal class EquipmentBase : CommandBase
+    public class EquipmentBase : CommandBase
     {
         public EquipmentBase()
         {

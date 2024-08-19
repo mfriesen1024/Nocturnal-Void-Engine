@@ -1,6 +1,6 @@
 ﻿namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CItem.CGold
 {
-    internal class GoldBase : CommandBase
+    public class GoldBase : CommandBase
     {
         public GoldBase()
         {

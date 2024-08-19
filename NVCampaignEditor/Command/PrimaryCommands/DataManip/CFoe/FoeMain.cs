@@ -1,6 +1,6 @@
 ﻿namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CFoe
 {
-    internal class FoeMain : CommandBase
+    public class FoeMain : CommandBase
     {
         public FoeMain()
         {

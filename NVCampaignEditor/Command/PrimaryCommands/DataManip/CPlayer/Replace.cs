@@ -4,7 +4,7 @@ using Nocturnal_Void.FileSystem;
 
 namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CPlayer
 {
-    internal class Replace : CommandBase
+    public class Replace : CommandBase
     {
         public Replace()
         {

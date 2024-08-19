@@ -3,7 +3,7 @@ using Nocturnal_Void.FileSystem;
 
 namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CItem
 {
-    internal class ListAll : CommandBase
+    public class ListAll : CommandBase
     {
         public ListAll()
         {

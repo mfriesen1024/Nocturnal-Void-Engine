@@ -5,7 +5,7 @@ using NVCampaignEditor.Command.PrimaryCommands.DataManip.CMap.CEdit;
 
 namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CMap
 {
-    internal class Create : CommandBase
+    public class Create : CommandBase
     {
         public Create()
         {

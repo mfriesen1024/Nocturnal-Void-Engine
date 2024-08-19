@@ -3,7 +3,7 @@ using Nocturnal_Void.FileSystem;
 
 namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CPlayer
 {
-    internal class View : CommandBase
+    public class View : CommandBase
     {
         public View()
         {

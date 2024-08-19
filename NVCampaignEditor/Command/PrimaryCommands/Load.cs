@@ -5,7 +5,7 @@ namespace NVCampaignEditor.Command.PrimaryCommands
     /// <summary>
     /// Load data from files.
     /// </summary>
-    internal class Load : CommandBase
+    public class Load : CommandBase
     {
         public Load()
         {

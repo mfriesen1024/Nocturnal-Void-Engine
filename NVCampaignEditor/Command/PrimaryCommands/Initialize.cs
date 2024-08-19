@@ -5,7 +5,7 @@ namespace NVCampaignEditor.Command.PrimaryCommands
     /// <summary>
     /// Initializes the loader
     /// </summary>
-    internal class Initialize : CommandBase
+    public class Initialize : CommandBase
     {
         public Initialize()
         {

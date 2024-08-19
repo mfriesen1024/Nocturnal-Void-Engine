@@ -1,6 +1,6 @@
 ﻿namespace NVCampaignEditor.Command
 {
-    abstract class CommandBase
+    public abstract class CommandBase
     {
         private string[] aliases;
         private CommandBase[] subcommands = [];

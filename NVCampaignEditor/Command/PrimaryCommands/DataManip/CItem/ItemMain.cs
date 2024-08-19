@@ -4,7 +4,7 @@ using NVCampaignEditor.Command.PrimaryCommands.DataManip.CItem.CGold;
 
 namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CItem
 {
-    internal class ItemMain : CommandBase
+    public class ItemMain : CommandBase
     {
         public ItemMain()
         {

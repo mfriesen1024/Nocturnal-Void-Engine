@@ -3,7 +3,7 @@ using Nocturnal_Void.FileSystem;
 
 namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CItem.CGold
 {
-    internal class Replace : CommandBase
+    public class Replace : CommandBase
     {
         public Replace()
         {

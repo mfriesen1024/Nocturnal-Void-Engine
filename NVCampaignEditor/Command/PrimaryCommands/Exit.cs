@@ -3,7 +3,7 @@
     /// <summary>
     /// Close the editor.
     /// </summary>
-    internal class Exit : CommandBase
+    public class Exit : CommandBase
     {
         public Exit()
         {

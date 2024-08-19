@@ -3,7 +3,7 @@ using NVCampaignEditor.Command.PrimaryCommands.DataManip.CMap.CEdit;
 
 namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CMap
 {
-    internal class MapMain : CommandBase
+    public class MapMain : CommandBase
     {
         public MapMain()
         {

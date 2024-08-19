@@ -2,7 +2,7 @@
 
 namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CItem.CConsumable
 {
-    internal class Delete : CommandBase
+    public class Delete : CommandBase
     {
         public Delete()
         {

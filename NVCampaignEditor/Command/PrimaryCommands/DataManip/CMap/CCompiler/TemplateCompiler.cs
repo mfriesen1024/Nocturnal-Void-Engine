@@ -5,7 +5,7 @@ using TZPRenderers.Text;
 
 namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CMap.CCompiler
 {
-    internal class TemplateCompiler : CommandBase
+    public class TemplateCompiler : CommandBase
     {
         public TemplateCompiler()
         {

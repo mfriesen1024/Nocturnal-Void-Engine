@@ -2,7 +2,7 @@
 
 namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CFoe
 {
-    internal class Replace : CommandBase
+    public class Replace : CommandBase
     {
         public Replace()
         {

@@ -1,6 +1,6 @@
 ﻿namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CItem.CConsumable
 {
-    internal class ConsumableBase : CommandBase
+    public class ConsumableBase : CommandBase
     {
         public ConsumableBase()
         {

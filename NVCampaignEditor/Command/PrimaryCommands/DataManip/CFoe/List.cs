@@ -3,7 +3,7 @@ using Nocturnal_Void.FileSystem;
 
 namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CFoe
 {
-    internal class List : CommandBase
+    public class List : CommandBase
     {
         public List()
         {

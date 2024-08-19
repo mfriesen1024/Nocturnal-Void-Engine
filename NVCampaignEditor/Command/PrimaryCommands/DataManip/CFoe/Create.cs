@@ -5,7 +5,7 @@ using TZPRenderers.Text;
 
 namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CFoe
 {
-    internal class Create : CommandBase
+    public class Create : CommandBase
     {
         public Create()
         {

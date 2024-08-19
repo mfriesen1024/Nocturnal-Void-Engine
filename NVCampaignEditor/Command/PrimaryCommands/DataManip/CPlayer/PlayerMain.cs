@@ -1,6 +1,6 @@
 ﻿namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CPlayer
 {
-    internal class PlayerMain : CommandBase
+    public class PlayerMain : CommandBase
     {
         public PlayerMain()
         {

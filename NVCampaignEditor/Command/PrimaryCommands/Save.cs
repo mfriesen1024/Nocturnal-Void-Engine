@@ -5,7 +5,7 @@ namespace NVCampaignEditor.Command.PrimaryCommands
     /// <summary>
     /// Save all data.
     /// </summary>
-    internal class Save : CommandBase
+    public class Save : CommandBase
     {
         public Save()
         {

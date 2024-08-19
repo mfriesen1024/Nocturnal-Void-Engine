@@ -1,6 +1,6 @@
 ﻿namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CMap.CCompiler
 {
-    internal class TemplateGenerator : CommandBase
+    public class TemplateGenerator : CommandBase
     {
         public TemplateGenerator()
         {

@@ -3,7 +3,7 @@
     /// <summary>
     /// This should be used to edit the map indicated by argument 0.
     /// </summary>
-    internal partial class EditMain : CommandBase
+    public partial class EditMain : CommandBase
     {
         public EditMain()
         {

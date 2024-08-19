@@ -2,7 +2,7 @@
 
 namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CMap
 {
-    internal class Delete : CommandBase
+    public class Delete : CommandBase
     {
         public Delete()
         {

@@ -6,7 +6,7 @@ namespace NVCampaignEditor.Command.PrimaryCommands.DataManip.CMap.CCompiler
     /// <summary>
     /// This should compile a map from text files into the editor to be saved as .bin
     /// </summary>
-    internal class CompileMain : CommandBase
+    public class CompileMain : CommandBase
     {
         public CompileMain()
         {

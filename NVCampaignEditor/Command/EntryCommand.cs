@@ -6,7 +6,7 @@ using NVCampaignEditor.Command.PrimaryCommands.DataManip.CPlayer;
 
 namespace NVCampaignEditor.Command
 {
-    internal class EntryCommand : CommandBase
+    public class EntryCommand : CommandBase
     {
         public EntryCommand()
         {

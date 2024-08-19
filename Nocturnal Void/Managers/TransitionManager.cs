@@ -3,7 +3,7 @@
     /// <summary>
     /// An overrideable manager to provide utilities for transitions.
     /// </summary>
-    internal class TransitionManager
+    public class TransitionManager
     {
         public static TransitionManager Instance { get; private set; }
 

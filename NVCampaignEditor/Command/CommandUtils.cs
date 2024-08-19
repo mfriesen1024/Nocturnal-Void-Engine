@@ -4,7 +4,7 @@ using TZPRenderers.Text;
 
 namespace NVCampaignEditor.Command
 {
-    internal static class CommandUtils
+    public static class CommandUtils
     {
 
         public static string[] GetArgs(string prompt)
