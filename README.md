@@ -1,3 +1,3 @@
 # Nocturnal-Void
 
-A text based roguelite based off a school project.
+A scuffed text based game engine to be used for a project.
