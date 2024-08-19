@@ -14,6 +14,7 @@ namespace NVCampaignEditor
 
             void Startup()
             {
+                // This is just some stuff to print name and version.
                 Assembly assembly = Assembly.GetEntryAssembly();
                 if (assembly == null) { Environment.Exit(1); return; }
 
