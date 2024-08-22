@@ -11,9 +11,11 @@ namespace Nocturnal_Void.Entity.Movable
         public new const string name = "Player";        // Player's name should always be Player, so just make a constant.
 
         // Inventory things
-        List<Item> inventory = new List<Item>();
-        Equipment[] equipped = new Equipment[3];
+        private List<Item> inventory = new List<Item>();
+        private Equipment[] equipped = new Equipment[3];
         public int gold { get; protected set; } = 0;
+        public List<Item> Inventory { get => inventory; protected set => inventory = value; }
+        public Equipment[] Equipped { get => equipped; protected set => equipped = value; }
 
         public Player(string name, int hp, int def, int str, Vector2 location, RelativeRenderable renderable) : base(name, hp, def, str, location, renderable)
         {
